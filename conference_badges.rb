@@ -11,7 +11,12 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-  names.each_index {|name| Hello, _____!  name, " -- " }
+  names.each_index {|name| "Hello, #{name}! You'll be assigned to room   name, " -- " }
+
+basket.each do |apple|
+  puts "Taking out #{apple}"
+  apples_taken_out += 1
+end
 
 
   message = "Hello #{name}! You'll be assigned to room #{room}"
