@@ -16,6 +16,14 @@ end
 
 
 
+names.each_with_index do |name, index|
+  puts "#{num}"
+  if ((idx + 1) % 3 == 0)
+    puts "end of line" 
+  end 
+end 
+
+
 
 
   describe '#printer' do
