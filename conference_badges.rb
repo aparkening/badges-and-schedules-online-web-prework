@@ -11,21 +11,10 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-  names.collect { |name| "Hello, #{name}! You'll be assigned to room #{name.each_with_index}" }
-end
-
-room_array = [ ]
-names.each_with_index do |name, index|
-  "Hello, #{name}! You'll be assigned to room #{index}!" 
-  
-  
-  
-  puts "#{num}"
-  if ((idx + 1) % 3 == 0)
-    puts "end of line" 
-  end 
-end 
-
+  room_array = [ ]
+  names.each_with_index do |name, index|
+    room_array << "Hello, #{name}! You'll be assigned to room #{index}!" 
+  end   
 
 
 
