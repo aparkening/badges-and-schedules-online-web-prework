@@ -1,5 +1,5 @@
 
-# Return a badge in the form of "Hello, my name is "
+# Return a badge in the form of: "Hello, my name is ____"
 def badge_maker(name)
   badge = "Hello, my name is #{name}"
 end
@@ -9,9 +9,9 @@ def batch_badge_creator(names)
   names.collect { |array_value| badge_maker(array_value) }
 end
 
-# 
+# Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-names.each_index {|name| print name, " -- " }
+  names.each_index {|name| Hello, _____!  name, " -- " }
 
 
   message = "Hello #{name}! You'll be assigned to room #{room}"
