@@ -11,7 +11,7 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-  names.collect {|name| "Hello, #{name}! You'll be assigned to room #{name.index_of}" }
+  names.collect {|name| "Hello, #{name}! You'll be assigned to room #{name.each_index}" }
 end
 
   describe '#printer' do
