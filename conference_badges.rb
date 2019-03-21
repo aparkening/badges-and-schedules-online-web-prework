@@ -15,6 +15,10 @@ def assign_rooms(names)
   names.each_index do |name|
     
 
+%w(cat dog wombat).each_with_index { |item, index|
+  hash[item] = index
+}
+
 Return array of speaker names and room assignments
 
 
