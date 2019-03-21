@@ -1,6 +1,6 @@
 
 # Return a badge in the form of "Hello, my name is "
-def #badge_maker(name)
+def badge_maker(name)
   badge = "Hello, my name is #{name}"
 end
 
