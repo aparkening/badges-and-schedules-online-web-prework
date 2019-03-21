@@ -6,10 +6,7 @@ end
 
 # Take an array names and return an array of badge messages 
 def batch_badge_creator(array)
-  def square_array(array)
-  array.collect { |array_value| array_value ** 2 }
-end
-  
+  array.collect { |array_value| badge_maker(array_value) }
 end
 
 
