@@ -11,38 +11,8 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-
-  names.each_index do |name|
-    
-
-names.each_with_index { |item, index|
-  hash[item] = index
-}
-
-Return array of speaker names and room assignments
-
-
-
-
-
-  end
-
-  names.collect { |array_value| array_value ** 2 }
-
-  names.each_index { |room| basket.each do |apple|
-  puts "Taking out #{apple}"
-  apples_taken_out += 1
+  names.each_with_index { |name, index| "Hello, #{name}! You'll be assigned to room #{index}" }
 end
-
-  names.collect { |array_value| badge_maker(array_value) }
-
-
-end
-  
-  
-  .each_index {|x| print x, " -- " }
-  
-   names.collect {|name| "Hello, #{name}! You'll be assigned to room #{name.each_index}" }
 
 
 
