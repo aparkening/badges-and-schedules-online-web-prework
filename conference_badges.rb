@@ -11,6 +11,11 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
+
+  names.each_index do |name|
+
+end
+
   names.collect { |array_value| array_value ** 2 }
 
   names.each_index { |room| basket.each do |apple|
