@@ -22,8 +22,8 @@ end
 # Puts results of batch_badge_creator and assign_rooms method to the screen
 def printer(attendees)
   badge_print = batch_badge_creator(attendees)
-  badge_print.each do |badge| puts badge_print
+  badge_print.each { |badge| puts badge }
   
-  To make this test pass, make sure you are iterating through your badges and room assignments lists.
-  
+  room_print = assign_rooms(attendees)
+  room_print.each { |room| puts room }
 end
