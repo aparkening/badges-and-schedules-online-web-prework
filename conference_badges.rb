@@ -21,7 +21,7 @@ end
 
 # Puts results of batch_badge_creator and assign_rooms method to the screen
 def printer(attendees)
-  puts batch_badge_creator(attendees)
+  batch_badge_creator(attendees)
   
   
   To make this test pass, make sure you are iterating through your badges and room assignments lists.
