@@ -11,6 +11,9 @@ end
 
 # 
 def assign_rooms(names)
+
+
+  message = "Hello #{name}! You'll be assigned to room #{room}"
   
 
     it 'should return a list of welcome messages and room assignments' do
