@@ -1,7 +1,7 @@
 
 # Return a badge in the form of "Hello, my name is "
 def #badge_maker(name)
-  return "Hello, my name is #{name}"
+  badge = "Hello, my name is #{name}"
 end
 
 # Take an array names and return an array of badge messages 
