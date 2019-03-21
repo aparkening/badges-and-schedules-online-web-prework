@@ -4,15 +4,14 @@ def #badge_maker(name)
   return "Hello, my name is #{name}"
 end
 
+# Take an array names and return an array of badge messages 
+def batch_badge_creator(array)
+  
+  
+end
 
 
-
-
-  describe '#batch_badge_creator' do
-
-    # Question 2b
-
-    it 'should return a list of badge messages' do
+should return a list of badge messages' do
       expect(batch_badge_creator(attendees)).to eq(badges)
     end
     it 'should not hard-code response' do
