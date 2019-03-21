@@ -19,7 +19,7 @@ def assign_rooms(names)
   return room_array
 end
 
-# Puts results of batch_badge_creator and assign_rooms method to the screen
+# Puts results of batch_badge_creator and assign_rooms to the screen
 def printer(attendees)
   badge_print = batch_badge_creator(attendees)
   badge_print.each { |badge| puts badge }
