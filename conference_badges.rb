@@ -14,8 +14,7 @@ def assign_rooms(names)
   names.collect { |name| "Hello, #{name}! You'll be assigned to room #{name.each_with_index}" }
 end
 
-
-
+room_array = [ ]
 names.each_with_index do |name, index|
   Hello, #{name}! You'll be assigned to room #{index}!" 
   
