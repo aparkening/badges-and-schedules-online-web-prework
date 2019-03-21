@@ -5,23 +5,13 @@ def badge_maker(name)
 end
 
 # Take an array names and return an array of badge messages 
-def batch_badge_creator(array)
-  array.collect { |array_value| badge_maker(array_value) }
+def batch_badge_creator(names)
+  names.collect { |array_value| badge_maker(array_value) }
 end
 
-
-should return a list of badge messages' do
-      expect(batch_badge_creator(attendees)).to eq(badges)
-    end
-    it 'should not hard-code response' do
-      expect(batch_badge_creator(["Johnny"])).to eq(["Hello, my name is Johnny."])
-    end
-
-  end
-
-  describe '#assign_rooms' do
-
-    # Question 3
+# 
+def assign_rooms(names)
+  
 
     it 'should return a list of welcome messages and room assignments' do
       expect(assign_rooms(attendees)).to eq(room_assignments)
