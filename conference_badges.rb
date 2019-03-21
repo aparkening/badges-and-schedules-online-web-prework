@@ -11,25 +11,8 @@ end
 
 # Take an array of names and return array of room assignments in the form of: "Hello, _____! You'll be assigned to room _____!"
 def assign_rooms(names)
-  names.each_index {|room| "Hello, #{names[name}! You'll be assigned to room   name, " -- " }
-
-basket.each do |apple|
-  puts "Taking out #{apple}"
-  apples_taken_out += 1
+  names.each_index {|room| "Hello, #{names[room]}! You'll be assigned to room #{room}" }
 end
-
-
-  message = "Hello #{name}! You'll be assigned to room #{room}"
-  
-
-    it 'should return a list of welcome messages and room assignments' do
-      expect(assign_rooms(attendees)).to eq(room_assignments)
-    end
-    it 'should not hard-code the response' do
-      expect(assign_rooms(["Steve"])).to eq(["Hello, Steve! You'll be assigned to room 1!"])
-    end
-
-  end
 
   describe '#printer' do
 
