@@ -13,6 +13,10 @@ end
 def assign_rooms(names)
   names.collect { |array_value| array_value ** 2 }
 
+  names.each_index { |room| basket.each do |apple|
+  puts "Taking out #{apple}"
+  apples_taken_out += 1
+end
 
   names.collect { |array_value| badge_maker(array_value) }
 
