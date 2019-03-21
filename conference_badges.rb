@@ -11,9 +11,7 @@ end
 
 # 
 def assign_rooms(names)
-
-
-names.each_index {|x| print x, " -- " }
+names.each_index {|name| print name, " -- " }
 
 
   message = "Hello #{name}! You'll be assigned to room #{room}"
