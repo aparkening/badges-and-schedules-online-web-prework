@@ -13,8 +13,15 @@ end
 def assign_rooms(names)
 
   names.each_index do |name|
+    
 
-end
+Return array of speaker names and room assignments
+
+
+
+
+
+  end
 
   names.collect { |array_value| array_value ** 2 }
 
@@ -31,9 +38,11 @@ end
   
   .each_index {|x| print x, " -- " }
   
-  
-  names.collect {|name| "Hello, #{name}! You'll be assigned to room #{name.each_index}" }
-end
+   names.collect {|name| "Hello, #{name}! You'll be assigned to room #{name.each_index}" }
+
+
+
+
 
   describe '#printer' do
 
